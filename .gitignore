@@ -1,0 +1,81 @@
+# ------------------------------
+# Ignore all output / training / logs
+# ------------------------------
+output*/
+*/output*/
+
+# ------------------------------
+# Ignore embedding datasets
+# ------------------------------
+Typical embedding/
+*/Typical embedding/
+
+# ------------------------------
+# Ignore dataset folders
+# ------------------------------
+Data train-demo/
+*/Data train-demo/
+
+# ------------------------------
+# Ignore project folders (Django/Python)
+# ------------------------------
+earthquake_monitor/
+events/
+
+# ------------------------------
+# Ignore JSON data files (predictions, thresholds, metrics)
+# ------------------------------
+*.json
+
+# ------------------------------
+# Ignore static assets (CSS, JS, MP3)
+# ------------------------------
+static/
+*/static/
+*.css
+*.js
+*.mp3
+
+# ------------------------------
+# Ignore Python cache / compiled files
+# ------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ------------------------------
+# Ignore trained models and weights
+# ------------------------------
+*.keras
+*.h5
+*.joblib
+
+# ------------------------------
+# Ignore logs
+# ------------------------------
+*.log
+
+# ------------------------------
+# Ignore temporary / backup files
+# ------------------------------
+*.tmp
+*.bak
+*.swp
+
+# ------------------------------
+# Misc
+# ------------------------------
+*.DS_Store
+*.env
+*.idea/
+*.vscode/
+*.sqlite3
+*.db
+
+
+manage.py
+sensors.py
+Pre-trained model/
+evaluate_test.py
+requirements.txt
